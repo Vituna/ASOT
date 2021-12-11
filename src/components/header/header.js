@@ -3,10 +3,10 @@ import Logo from '../logo/logo';
 function Header() {
 
   return (
-    <header>
-      <div>
-        <Logo />
-        <img src="img/header-photo.jpg" width="260" height="200" alt="Baner" />
+    <header className="header">
+      <div className="container">
+          <Logo />
+          <img className="header__photo" src="img/header-photo.jpg" alt="Baner" />
       </div>
     </header>
   );

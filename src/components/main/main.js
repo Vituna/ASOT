@@ -2,12 +2,12 @@
 import Header from '../header/header';
 
 const Main = () => (
+  <>
+    <Header />
+    <main>
+    </main>
+  </>
 
-    <div >
-      <Header />
-      <main >
-      </main>
-    </div>
 );
 
 export default Main;
