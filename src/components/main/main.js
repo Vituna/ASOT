@@ -1,5 +1,6 @@
 
 import Header from '../header/header';
+import Footer from '../footer/footer';
 
 const Main = () => (
   <>
@@ -69,7 +70,7 @@ const Main = () => (
       </section>
       <section>
         <h2>Преимущества</h2>
-        <h3>Уже многие компании доверили свою безопасность «АСОТ»</h3>
+        <h3>Уже многие компании доверили<br/> свою безопасность «АСОТ»</h3>
         <ul>
         <li>
             <img src='img/time-outline.png' alt='time-outline'></img>
@@ -264,6 +265,12 @@ const Main = () => (
         <img src='img/Mask Group.png' alt='MaskGroup'/>
         <h3>Что говорят о нас</h3>
       </section>
+      <section>
+        <h2>Грамоты</h2>
+        <h3>Грамоты и благодарность</h3>
+      </section>
+
+      <Footer />
     </main>
   </>
 
