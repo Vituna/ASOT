@@ -18,6 +18,10 @@ function Footer() {
           petrov@asot-spb.ru<br/>
         </p>
       </div>
+      <div>
+        <p>© АСОТ 2022. Политика конфедициальности</p>
+        <p>Разработал Иванов В.В</p>
+      </div>
     </footer>
   );
 }
